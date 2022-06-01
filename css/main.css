@@ -1066,6 +1066,15 @@ input:focus + .icon {
   align-items: center;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .footer > .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
 @media screen and (min-width: 1200px) {
   .footer > .container {
     display: flex;
