@@ -1073,10 +1073,6 @@ input:focus + .icon {
   }
 }
 
-.footer__part {
-  margin-left: 70px;
-}
-
 @media screen and (max-width: 1199px) {
   .footer__part {
     display: block;
@@ -1167,7 +1163,7 @@ input:focus + .icon {
   }
 }
 
-@media screen and (max-width: 1199px) {
+@media screen and (min-width: 1200px) {
   .footer-social {
     margin-left: 70px;
   }
