@@ -94,6 +94,11 @@
 }
 .footer-social__list {
   display: flex;
+  @media screen and (max-width: 1199px) {
+    margin-bottom: 60px;
+    text-align: center;
+    justify-content: center;
+  }
 }
 .footer-social__item:not(:last-child) {
   margin-right: 10px;

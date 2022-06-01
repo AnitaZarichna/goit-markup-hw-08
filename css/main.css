@@ -1173,6 +1173,14 @@ input:focus + .icon {
   display: flex;
 }
 
+@media screen and (max-width: 1199px) {
+  .footer-social__list {
+    margin-bottom: 60px;
+    text-align: center;
+    justify-content: center;
+  }
+}
+
 .footer-social__item:not(:last-child) {
   margin-right: 10px;
 }
