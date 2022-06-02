@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
-    <!-- Шапка страницы
+    <!-- Шапка страницы -->
     <header class="header">
       <div class="container header-section">
         <nav class="site-nav">
@@ -35,8 +35,41 @@
             >
           </li>
         </ul>
+        <button type="button" class="menu-button js-open-menu">
+          <svg class="mobile-menu-icon" width="40" height="40" aria-label="Открыть мобильное меню">
+            <use class="icon-open" href="./img/symbol-defs.svg#menu-open"></use>
+          </svg>
+        </button>
+
+        <div class="mobile-menu js-menu-container">
+          <button type="button" class="menu-button menu-close-button js-close-menu">
+            <svg class="mobile-menu-icon" width="40" height="40" aria-label="Закрыть мобильное меню">
+              <use class="icon-close" href="./img/symbol-defs.svg#menu-close"></use>
+            </svg>
+          </button>
+
+          <nav class="nav">
+            <ul class="nav-list list">
+              <li class="nav-list__item"><a href="Студия" class="nav-list__link current">Студия</a></li>
+              <li class="nav-list__item"><a href="./portfolio.html" class="nav-list__link">Портфолио</a></li>
+              <li class="nav-list__item"><a href="Контакты" class="nav-list__link">Контакты</a></li>
+            </ul>
+          </nav>
+          <ul class="contact-list list">
+            <li class="contact-list__item"><a href="tel:+380961111111" class="contact-mob__link">+38 096 111 11 11</a></li>
+            <li class="contact-list__item">
+              <a href="mailto:info@devstudio.com" class="contact-list__link">info@devstudio.com</a>
+            </li>
+          </ul>
+          <ul class="mobile-social list">
+            <li class="mobile-social__item"><a class="mobile-social__link" href="">Instagram</a></li>
+            <li class="mobile-social__item"><a class="mobile-social__link" href="">Twitter</a></li>
+            <li class="mobile-social__item"><a class="mobile-social__link" href="">Facebook</a></li>
+            <li class="mobile-social__item"><a class="mobile-social__link" href="">LinkedIn</a></li>
+          </ul>
+        </div>
       </div>
-    </header> -->
+    </header>
     <!-- Блок Герой-->
     <main>
       <section class="hero section">
@@ -383,5 +416,6 @@
       </div>
     </div> -->
     <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
