@@ -1,4 +1,4 @@
-.header .container {
+.header {
   border-bottom: 1px solid #ececec;
 }
 .header-section {
@@ -83,9 +83,6 @@
   &:hover,
   &:focus {
     color: $accent-color;
-    @media screen and (min-width: 768px) and (max-width: 1199px) {
-      padding-bottom: 10px;
-    }
   }
   @media screen and (min-width: 1200px) {
     padding-top: 32px;
