@@ -761,6 +761,7 @@ input:focus + .icon {
 .check__text {
   display: flex;
   font-size: 12px;
+  align-items: center;
   line-height: 1.16;
   letter-spacing: 0.03em;
   color: #757575;
@@ -789,6 +790,7 @@ input:focus + .icon {
   background-color: #2196f3;
   border: none;
   background-image: url(../img/icon-check.svg);
+  background-position: center;
 }
 
 .conditions {
