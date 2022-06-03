@@ -55,7 +55,7 @@
 }
 
 .modal-icon__close {
-  fill: #000;
+  fill: currentColor;
   transition: fill 250ms $animation;
 }
 .modal__title {
@@ -166,13 +166,13 @@ input:focus + .icon {
 }
 
 .policy {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-bottom: 30px;
 }
 .check__text {
   display: flex;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
   font-size: 12px;
   line-height: 1.16;
   letter-spacing: 0.03em;
@@ -198,17 +198,19 @@ input:focus + .icon {
 .input-check:checked + .check__text::before {
   background-color: $accent-color;
   border: none;
-  background-image: url(/img/icon-check.svg);
+  background-image: url(../img/icon-check.svg);
 }
 .conditions {
+  display: inline;
+  margin-left: 5px;
   color: $accent-color;
   text-decoration: underline;
   font-size: 12px;
   line-height: 1.16;
   letter-spacing: 0.03em;
   cursor: pointer;
-  @media screen and (min-width: $desktop) {
-    font-size: $main_text_size;
+  @media screen and (min-width: 1200px) {
+    font-size: 14px;
     line-height: 1.71;
   }
 }
